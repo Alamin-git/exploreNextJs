@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 
 const navLinks = [
    {
@@ -26,9 +25,9 @@ const navLinks = [
 
 const Navbar = () => {
    return (
-      <nav className="flex items-center justify-between">
-         <h1 className="text-3xl font-bold text-yellow-400">Hello Next</h1>
-         <ul>
+      <nav className="flex items-center justify-around">
+         <h1 className="text-3xl font-bold text-gray-700">Hello Next</h1>
+         <ul className="flex gap-2 text-lg">
             {navLinks.map(({ path, title }) => (
                <li key={path}>
                   <Link href={path}>{title}</Link>
