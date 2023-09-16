@@ -1,4 +1,4 @@
-import Link from "next/link";
+import NavLink from "./NavLink";
 
 const navLinks = [
    {
@@ -25,12 +25,18 @@ const navLinks = [
 
 const Navbar = () => {
    return (
-      <nav className="flex items-center justify-around">
+      <nav className="flex items-center container mx-auto justify-between">
          <h1 className="text-3xl font-bold text-gray-700">Hello Next</h1>
-         <ul className="flex gap-2 text-lg">
+         <ul className="flex gap-5 text-lg">
             {navLinks.map(({ path, title }) => (
                <li key={path}>
-                  <Link href={path}>{title}</Link>
+                  <NavLink
+                     exact={path === "/"}
+                     activeClassName="text-blue-700"
+                     href={path}
+                  >
+                     {title}
+                  </NavLink>
                </li>
             ))}
          </ul>

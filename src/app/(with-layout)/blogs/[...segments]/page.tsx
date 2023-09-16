@@ -6,6 +6,7 @@ const SingleBlog2 = ({ params }) => {
    return (
       <div>
          Single Blog2 - {year} for {id}
+         <p></p>
       </div>
    );
 };
