@@ -1,6 +1,6 @@
 const SingleBlog2 = ({ params }) => {
-   console.log(params);
-   console.log(params.segments);
+   // console.log(params);
+   // console.log(params.segments);
    const [year, id] = params.segments;
 
    return (
