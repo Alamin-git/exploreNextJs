@@ -1,14 +1,12 @@
-import { Metadata } from "next";
+import loadBlogsData from "@/utils/loadBlogsData";
 import Link from "next/link";
 
-
 const BlogsPage = async () => {
-   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-   const data = await res.json();
+   const blogsData = await loadBlogsData();
 
    return (
       <div className="container mx-auto mt-10">
-         {data.map(({ id, userId, title, body }) => (
+         {blogsData.map(({ id, userId, title, body }) => (
             <div key={id} className="border border-black p-3 my-5">
                <h2 className="text-2xl">
                   {id}. {title}
