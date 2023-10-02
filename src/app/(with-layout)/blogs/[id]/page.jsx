@@ -1,3 +1,4 @@
+import loadBlogsData from "@/utils/loadBlogsData";
 import loadSingleBlogs from "@/utils/loadSingleBlog";
 
 export const generateMetadata = async ({ params }) => {
@@ -5,6 +6,14 @@ export const generateMetadata = async ({ params }) => {
    return {
       title: title,
    };
+};
+
+export const generateStaticParams = async () => {
+   const blogs = await loadBlogsData();
+
+   return blogs.map(({id}) => ({
+      id: id.toString(),
+   }));
 };
 
 const SingleBlog = async ({ params }) => {

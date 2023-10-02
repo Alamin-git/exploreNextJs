@@ -1,0 +1,197 @@
+{
+   "categories": [
+      {
+         "id": 1,
+         "name": "Item 1",
+         "imageUrl": "https://example.com/item1.jpg"
+      },
+      {
+         "id": 2,
+         "name": "Item 2",
+         "imageUrl": "https://example.com/item2.jpg"
+      },
+      {
+         "id": 3,
+         "name": "Item 3",
+         "imageUrl": "https://example.com/item3.jpg"
+      },
+      {
+         "id": 4,
+         "name": "Item 4",
+         "imageUrl": "https://example.com/item4.jpg"
+      },
+      {
+         "id": 5,
+         "name": "Item 5",
+         "imageUrl": "https://example.com/item5.jpg"
+      },
+      {
+         "id": 6,
+         "name": "Item 6",
+         "imageUrl": "https://example.com/item6.jpg"
+      },
+      {
+         "id": 7,
+         "name": "Item 7",
+         "imageUrl": "https://example.com/item7.jpg"
+      },
+      {
+         "id": 8,
+         "name": "Item 8",
+         "imageUrl": "https://example.com/item8.jpg"
+      },
+      {
+         "id": 9,
+         "name": "Item 9",
+         "imageUrl": "https://example.com/item9.jpg"
+      },
+      {
+         "id": 10,
+         "name": "Item 10",
+         "imageUrl": "https://example.com/item10.jpg"
+      }
+   ],
+
+   "products": [
+      {
+         "id": 1,
+         "title": "Phone Model 1",
+         "price": 599.99,
+         "categoryId": 1,
+         "features": [
+            "5.5-inch AMOLED display",
+            "Snapdragon 855 processor",
+            "6GB RAM, 128GB storage",
+            "Dual rear cameras",
+            "4000mAh battery"
+         ],
+         "imageUrl": "https://example.com/phone1.jpg"
+      },
+      {
+         "id": 2,
+         "title": "Phone Model 2",
+         "price": 699.99,
+         "categoryId": 1,
+         "features": [
+            "6.1-inch OLED display",
+            "Snapdragon 865 processor",
+            "8GB RAM, 256GB storage",
+            "Triple rear cameras",
+            "4500mAh battery"
+         ],
+         "imageUrl": "https://example.com/phone2.jpg"
+      },
+      {
+         "id": 3,
+         "title": "Phone Model 3",
+         "price": 499.99,
+         "categoryId": 2,
+         "features": [
+            "5.8-inch LCD display",
+            "Snapdragon 765 processor",
+            "6GB RAM, 64GB storage",
+            "Dual rear cameras",
+            "3800mAh battery"
+         ],
+         "imageUrl": "https://example.com/phone3.jpg"
+      },
+      {
+         "id": 4,
+         "title": "Phone Model 4",
+         "price": 799.99,
+         "categoryId": 2,
+         "features": [
+            "6.4-inch AMOLED display",
+            "Exynos 990 processor",
+            "12GB RAM, 512GB storage",
+            "Quad rear cameras",
+            "5000mAh battery"
+         ],
+         "imageUrl": "https://example.com/phone4.jpg"
+      },
+      {
+         "id": 5,
+         "title": "Phone Model 5",
+         "price": 899.99,
+         "categoryId": 3,
+         "features": [
+            "6.5-inch OLED display",
+            "Apple A14 Bionic processor",
+            "8GB RAM, 128GB storage",
+            "Dual rear cameras",
+            "3700mAh battery"
+         ],
+         "imageUrl": "https://example.com/phone5.jpg"
+      },
+      {
+         "id": 6,
+         "title": "Phone Model 6",
+         "price": 1199.99,
+         "categoryId": 3,
+         "features": [
+            "6.7-inch OLED display",
+            "Apple A15 Bionic processor",
+            "16GB RAM, 512GB storage",
+            "Triple rear cameras",
+            "4100mAh battery"
+         ],
+         "imageUrl": "https://example.com/phone6.jpg"
+      },
+      {
+         "id": 7,
+         "title": "Phone Model 7",
+         "price": 349.99,
+         "categoryId": 4,
+         "features": [
+            "5.2-inch LCD display",
+            "MediaTek Helio P70 processor",
+            "4GB RAM, 64GB storage",
+            "Dual rear cameras",
+            "3000mAh battery"
+         ],
+         "imageUrl": "https://example.com/phone7.jpg"
+      },
+      {
+         "id": 8,
+         "title": "Phone Model 8",
+         "price": 249.99,
+         "categoryId": 4,
+         "features": [
+            "5.0-inch LCD display",
+            "Snapdragon 450 processor",
+            "3GB RAM, 32GB storage",
+            "Single rear camera",
+            "2800mAh battery"
+         ],
+         "imageUrl": "https://example.com/phone8.jpg"
+      },
+      {
+         "id": 9,
+         "title": "Phone Model 9",
+         "price": 449.99,
+         "categoryId": 5,
+         "features": [
+            "5.7-inch AMOLED display",
+            "Snapdragon 765G processor",
+            "6GB RAM, 128GB storage",
+            "Triple rear cameras",
+            "3500mAh battery"
+         ],
+         "imageUrl": "https://example.com/phone9.jpg"
+      },
+      {
+         "id": 10,
+         "title": "Phone Model 10",
+         "price": 999.99,
+         "categoryId": 5,
+         "features": [
+            "6.0-inch AMOLED display",
+            "Snapdragon 888 processor",
+            "12GB RAM, 256GB storage",
+            "Quad rear cameras",
+            "4200mAh battery"
+         ],
+         "imageUrl": "https://example.com/phone10.jpg"
+      }
+   ]
+}
